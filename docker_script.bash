@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo service docker start
 docker stop $(docker ps -aq)
 docker rm $(docker ps -aq)
 sudo docker build -t go-server .

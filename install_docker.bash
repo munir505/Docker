@@ -2,3 +2,4 @@
 sudo yum install docker -y
 sudo groupadd docker
 sudo usermod -aG docker
+exit
